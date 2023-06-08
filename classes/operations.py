@@ -41,7 +41,7 @@ class Operations:
         if len(order) == 16:
             return order[:4] + " " + order[4:6] + "**" + " **** " + order[12:16]
         else:
-            return "**" + order[len(order) - 4:]
+            return "**********" + order[len(order) - 4:]
 
     @staticmethod
     def check_from_info_operation(operation):
