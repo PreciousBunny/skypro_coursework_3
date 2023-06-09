@@ -24,7 +24,7 @@ class Operations:
         """
         Метод проверяет состояние операции и возвращает соответствующий ей статуc.
         """
-        return "ВЫПОЛНЕНО" if operation == "EXECUTED" else "ОТМЕНЕННО"
+        return "ВЫПОЛНЕНО" if operation == "EXECUTED" else "ОТМЕНЕНО"
 
     @staticmethod
     def date_reversed(date):
